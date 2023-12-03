@@ -60,7 +60,7 @@ int main() {
     double arr[size] = { 3, -2, 1, -4, 6 };
 
     double positiveSum = calculatePositiveSum(arr, size);
-    cout << "Ñóìà äîäàòíèõ åëåìåíò³â: " << positiveSum << endl;
+    cout << "Ð¡ÑƒÐ¼Ð° Ð´Ð¾Ð´Ð°Ñ‚Ð½Ð¸Ñ… ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ–Ð²: " << positiveSum << endl;
 
     int maxIndex = findMaxAbsElementIndex(arr, size);
     int minIndex = findMinAbsElementIndex(arr, size);
@@ -73,11 +73,11 @@ int main() {
         product *= arr[i];
     }
 
-    cout << "Äîáóòîê åëåìåíò³â ì³æ max òà min çà ìîäóëåì: " << abs(product) << endl;
+    cout << "Ð”Ð¾Ð±ÑƒÑ‚Ð¾Ðº ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ–Ð² Ð¼Ñ–Ð¶ max Ñ‚Ð° min Ð·Ð° Ð¼Ð¾Ð´ÑƒÐ»ÐµÐ¼: " << abs(product) << endl;
 
     sortDescending(arr, size);
 
-    cout << "Â³äñîðòîâàíèé ìàñèâ çà ñïàäàííÿì: ";
+    cout << "Ð’Ñ–Ð´ÑÐ¾Ñ€Ñ‚Ð¾Ð²Ð°Ð½Ð¸Ð¹ Ð¼Ð°ÑÐ¸Ð² Ð·Ð° ÑÐ¿Ð°Ð´Ð°Ð½Ð½ÑÐ¼: ";
     for (int i = 0; i < size; ++i) {
         cout << arr[i] << " ";
     }
